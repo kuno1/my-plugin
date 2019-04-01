@@ -11,6 +11,11 @@ Author URI: https://kunoichiwp.com
 // Avoid directory loading.
 defined( 'ABSPATH' ) || die();
 
+// Require autoloader.
+if ( file_exists( __DIR__ . '/vendor/autoload.php' ) ) {
+	require __DIR__ . '/vendor/autoload.php';
+}
+
 /**
  * Load all files.
  *
