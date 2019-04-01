@@ -1,0 +1,11 @@
+{
+    "name": "kuno1/my-plugin",
+    "description": "A sample plugin for Testing WordPress for Continuous Integration.",
+    "type": "wordpress-plugin",
+    "license": "GPL-3.0-or-later",
+    "minimum-stability": "stable",
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "^5.7.0"
+    }
+}
